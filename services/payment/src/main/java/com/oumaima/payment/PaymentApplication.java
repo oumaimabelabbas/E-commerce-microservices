@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 public class PaymentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NotificationApplication.class, args);
+		SpringApplication.run(PaymentApplication.class, args);
 	}
 
 }

@@ -11,7 +11,10 @@
       <schema-mapping>
         <introspection-scope>
           <node negative="1">
-            <node kind="database" negative="1" />
+            <node kind="database" negative="1">
+              <name qname="@" />
+              <name qname="product" />
+            </node>
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
             </node>
